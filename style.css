@@ -1,0 +1,109 @@
+/*initial global reset*/
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+    list-style: none;
+}
+
+/*converting the root default general font-size to 10px*/
+html {
+    font-size: 62.5%;
+}
+
+body {
+    /*default font-size in rem*/
+    font-size: 1.6rem;
+
+    width: 100%;
+    height: 100rem;
+
+    Background-color: #F4D04E;
+    
+    /*Flex box*/
+    display: flex;
+    flex-direction: row;
+    /*main-axis*/
+    justify-content: center;
+    /*cross-axis*/
+    align-items: center;
+}
+
+.preview-card {
+    background-color: #FFFFFF;
+    width: 38.4rem;
+    height: 52.2rem;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/*Footer*/
+.attribution {
+    font-size: 1.6rem;
+    text-align: center;
+}
+.attribution a {
+    color: hsl(228, 45%, 44%);
+}
