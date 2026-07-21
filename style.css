@@ -17,7 +17,7 @@ body {
     Background-color: #F4D04E;
     
     width: 100%;
-    height: 100rem;
+    min-height: 100vh;
 
     font-size: 1.6rem;
     font-family: 'Figtree';
@@ -35,7 +35,6 @@ body {
 .preview-card {
     background-color: #FFFFFF;
     width: 38.4rem;
-    height: 52.2rem;
 
     padding: 2.4rem;
     margin-bottom: 5rem; 
@@ -43,7 +42,7 @@ body {
     border: 0.1rem solid #111111;
     border-radius: 2rem;
     
-    box-shadow: 1rem 1cap 0 #111111; /*New*/
+    box-shadow: 0.8rem 0.8rem 0px #111111; /*New*/
 }
 
 .image {
