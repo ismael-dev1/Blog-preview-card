@@ -14,13 +14,13 @@ html {
 
 body {
     /*default font-size in rem*/
-    Background-color: #F4D04E;
+    background-color: #F4D04E; 
     
     width: 100%;
     min-height: 100vh;
 
     font-size: 1.6rem;
-    font-family: 'Figtree';
+    font-family: 'Figtree', Arial, Helvetica, sans-serif;
     color: #111111;
     
     /*Flex box*/
