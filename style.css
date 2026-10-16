@@ -11,8 +11,12 @@ html {
     font-size: 62.5%;
 }
 
+:root {
+    --yellow: #F4D04E;
+}
+
 body {
-    background-color: #F4D04E; 
+    background-color: var(--yellow); 
     
     width: 100%;
     min-height: 100vh;
@@ -32,7 +36,8 @@ body {
 
 .preview-card {
     background-color: #FFFFFF;
-    width: 38.4rem;
+    width: 100%;
+    max-width: 38.4rem;
     height: auto;
 
     padding: 2.4rem;
@@ -54,7 +59,7 @@ body {
 }
 
 .text .category {
-    background-color: #F4D04E;
+    background-color: var(--yellow);
 
     padding: 0.4rem 1.2rem;
 
@@ -77,7 +82,7 @@ body {
 }
 
 .title:hover {
-    color: #F4D04E;
+    color: var(--yellow);
     cursor: pointer;
 }
 

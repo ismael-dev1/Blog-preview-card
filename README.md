@@ -11,6 +11,7 @@
 - [Author](#author)
 
 ## Overview
+This project provides a single and centralized blog preview card that provides a brief introduction to the subject that the article it takes to, approaches; which is the html and css fundamentals.
 
 ### Screenshot
 
