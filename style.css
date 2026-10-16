@@ -1,19 +1,17 @@
 @import url('https://fonts.googleapis.com/css2?family=Figtree:ital,wght@0,300..900;1,300..900&display=swap');
 
-/*initial global reset*/
+/* General reset */
 * {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
 }
 
-/*converting the root default general font-size to 10px*/
 html {
     font-size: 62.5%;
 }
 
 body {
-    /*default font-size in rem*/
     background-color: #F4D04E; 
     
     width: 100%;
@@ -23,18 +21,19 @@ body {
     font-family: 'Figtree', Arial, Helvetica, sans-serif;
     color: #111111;
     
-    /*Flex box*/
     display: flex;
+    /* Current main-axis  */
     flex-direction: row;
-    /*main-axis*/
+    /* main-axis */
     justify-content: center;
-    /*cross-axis*/
+    /* cross-axis */
     align-items: center;
 }
 
 .preview-card {
     background-color: #FFFFFF;
     width: 38.4rem;
+    height: auto;
 
     padding: 2.4rem;
     margin-bottom: 5rem; 
@@ -42,7 +41,7 @@ body {
     border: 0.1rem solid #111111;
     border-radius: 2rem;
     
-    box-shadow: 0.8rem 0.8rem 0px #111111; /*New*/
+    box-shadow: 0.8rem 0.8rem 0px #111111;
 }
 
 .image {
@@ -50,7 +49,6 @@ body {
 }
 
 .text {
-    /* background-color: lightblue; */
     margin-top: 2.4rem;
     line-height: 150%;
 }
@@ -91,10 +89,10 @@ body {
 }
 
 .author {
-    /* background-color: lightgreen; */
     margin-top: 2.4rem;
 
     display: flex;
+    /* Current main-axis */
     flex-direction: row;
     /* cross-axis */
     align-items: center;
@@ -112,7 +110,7 @@ body {
     height: 3.2rem;
 }
 
-/*Footer*/
+/* Footer */
 .attribution {
     font-size: 1.6rem;
     text-align: center;
